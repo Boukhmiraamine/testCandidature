@@ -3,7 +3,7 @@ function verifyChar(c) {
     let increasing = true;
     let decreasing = true;
 
-    for (let i = 1; i < report.length; i++) {
+    for (let i = 1; i < c.length; i++) {
         const diff = Math.abs(c[i] - c[i - 1]);
         if (diff < 1 || diff > 3) {
             return false; 
@@ -33,4 +33,4 @@ function countChar(data) {
 
 const numbs = [[7, 6, 4, 2, 1],[1, 2, 7, 8, 9],[9, 7, 6, 2, 1],[1, 3, 2, 4, 5],[8, 6, 4, 4, 1],[1, 3, 6, 7, 9]];
 
-console.log('Nombre des chaines validés:', analyzeReports(numbs));
+console.log('Nombre des chaines validés:', countChar(numbs));

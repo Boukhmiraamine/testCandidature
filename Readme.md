@@ -1,5 +1,5 @@
 Dans cet exercice, on doit analyser plusieurs chaines composés de listes de nombres.
-Un rapport est sûr s’il respecte deux règles simples :
+Une chaine est sûr s’il respecte deux règles simples :
 
 - Les nombres sont tous croissants ou tous décroissants.
 - La différence entre deux nombres voisins est entre 1 et 3.
